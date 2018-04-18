@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\padma\AppData\Local\Microsoft\WindowsApps;C:\Users\padma\AppData\Roaming\npm;C:\Users\padma\AppData\Roaming\Composer\vendor\bin;C:\Users\padma\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.5.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "Latihan1",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "eslint-config-rallycoding": "^3.2.0",
+      "jest-expo": "25.0.0",
+      "react-native-scripts": "1.11.1",
+      "react-test-renderer": "16.2.0"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+      "start": "react-native-scripts start",
+      "eject": "react-native-scripts eject",
+      "android": "react-native-scripts android",
+      "ios": "react-native-scripts ios",
+      "test": "node node_modules/jest/bin/jest.js"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "expo": "^25.0.0",
+      "react": "16.2.0",
+      "react-native": "0.52.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: socket hang up
+      at TLSSocket.onConnectEnd (_tls_wrap.js:1078:19)
+      at Object.onceWrapper (events.js:255:19)
+      at TLSSocket.emit (events.js:165:20)
+      at endReadableNT (_stream_readable.js:1101:12)
+      at process._tickCallback (internal/process/next_tick.js:152:19)
